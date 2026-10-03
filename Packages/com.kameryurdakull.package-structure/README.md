@@ -1,6 +1,14 @@
 # Package Structure dependency installer
 
-Import the unitypackage into a Unity 6000.3 project, then open **Tools > Package Structure > Dependency Installer**. Every dependency has an individual install button. Missing prerequisites disable the button and explain the required action. The window scrolls to accommodate the full catalog.
+Install this Editor-only UPM package in Unity 6000.3 or later through **Window > Package Management > Package Manager > + > Install package from Git URL...**:
+
+```text
+https://github.com/kameryurdakull/ProjectStructure.git?path=/Packages/com.kameryurdakull.package-structure
+```
+
+Git must be installed and available to Unity, and downloads require internet access. Open **Tools > Package Structure > Dependency Installer** after installation. Every dependency has an individual install button. Missing prerequisites disable the button and explain the required action. The window scrolls to accommodate the full catalog. UniTask, VContainer and DOTween are not required to compile or open the installer itself.
+
+For projects using the earlier `.unitypackage` installer, remove the old `Assets/DependencyBundle` folder before installing the UPM package to avoid duplicate types. In this repository's development project, the installer is loaded as an embedded package from `Packages/com.kameryurdakull.package-structure`.
 
 Git packages use pinned tags or commit hashes from their upstream repositories. Package identities and subfolder paths were checked against their `package.json` files on 2026-10-03. Unity MCP, UniTask, VContainer, Event Bus, and DOTween remain available.
 
@@ -24,6 +32,8 @@ To extend the installer, add a `DependencyPackage` entry to `DependencyInstallCa
 
 The Event Bus button installs `com.kameryurdakull.eventbus` from `https://github.com/kameryurdakull/unity-eventbus.git?path=/Packages/com.kameryurdakull.eventbus#v1.0.0` through Unity Package Manager. No Event Bus source templates are bundled. When updating a project that used the previous installer, remove its old `Assets/Scripts/EventBus` source files and assembly definition before installing the Git package.
 
-After DOTween imports, open **Tools > Demigiant > DOTween Utility Panel** and click **Setup DOTween...** as required by Demigiant.
+After DOTween imports, open **Tools > Demigiant > DOTween Utility Panel** and click **Setup DOTween...** as required by Demigiant. Enable **Create ASMDEF** in the panel when using DOTween modules from assembly definition based packages.
 
 This installer contains no local UPM tarballs. The online Git packages and DOTween download require network access. Unity MCP's external Python/uv server runtime must be configured separately in its setup window.
+
+UPM installs only this package folder. The repository's development assets, scenes and validation outputs are not included. Each dependency retains its own license and distribution terms. See the [repository README](https://github.com/kameryurdakull/ProjectStructure#readme) for setup and development details.

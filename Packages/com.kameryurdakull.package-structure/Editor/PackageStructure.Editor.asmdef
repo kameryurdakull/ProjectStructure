@@ -1,0 +1,6 @@
+{
+  "name": "PackageStructure.Editor",
+  "rootNamespace": "PackageStructure.Editor",
+  "includePlatforms": ["Editor"],
+  "autoReferenced": true
+}

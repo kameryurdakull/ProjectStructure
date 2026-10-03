@@ -1,0 +1,22 @@
+{
+  "name": "com.kameryurdakull.package-structure",
+  "version": "1.0.0",
+  "displayName": "Package Structure",
+  "description": "Unity Editor dependency installer with pinned Git packages, prerequisite checks and official DOTween downloads.",
+  "unity": "6000.3",
+  "author": {
+    "name": "Kamer Yurdakull",
+    "url": "https://github.com/kameryurdakull"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kameryurdakull/ProjectStructure.git"
+  },
+  "documentationUrl": "https://github.com/kameryurdakull/ProjectStructure#readme",
+  "changelogUrl": "https://github.com/kameryurdakull/ProjectStructure/blob/main/Packages/com.kameryurdakull.package-structure/CHANGELOG.md",
+  "keywords": ["editor", "dependencies", "installer", "packages", "workflow"],
+  "dependencies": {
+    "com.unity.modules.imgui": "1.0.0",
+    "com.unity.modules.unitywebrequest": "1.0.0"
+  }
+}

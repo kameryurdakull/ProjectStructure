@@ -69,6 +69,15 @@
       "dependencies": {},
       "hash": "d00c712cd8d29f7dd69cc701c172decaf734bdb5"
     },
+    "com.kameryurdakull.package-structure": {
+      "version": "file:com.kameryurdakull.package-structure",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      }
+    },
     "com.kameryurdakull.pool-service": {
       "version": "https://github.com/kameryurdakull/unity-component-pool.git?path=/Packages/com.kameryurdakull.pool-service#28f4e6025338d9ea650af438cfd1d64d4f884360",
       "depth": 0,

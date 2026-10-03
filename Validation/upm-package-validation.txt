@@ -1,0 +1,6 @@
+Package: com.kameryurdakull.package-structure 1.0.0
+Source: Embedded
+Path: D:\Projects\ProjectStructure\Packages\com.kameryurdakull.package-structure
+Assembly: PackageStructure.Editor
+Editor-only: True
+Sources: 4
