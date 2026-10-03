@@ -1,0 +1,1 @@
+Component Pool spawn=True; despawn=True; reuse=True; double-despawn rejected=True

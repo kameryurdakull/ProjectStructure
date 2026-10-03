@@ -1,0 +1,1 @@
+C:\Users\Kamer\AppData\Local\Packages\sandbox.{8b6fcc31-949d-4810-ae09-15905f223042}\AC\Temp\PackageConflictProbe.cs(1,63): error CS0433: 'IEventBus' türü hem 'EventSystem, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' hem de 'Kamer.PostProcessService, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' öğesinde bulunur

@@ -1,0 +1,616 @@
+{
+  "mode": "EditMode",
+  "summary": {
+    "total": 67,
+    "passed": 67,
+    "failed": 0,
+    "skipped": 0,
+    "durationSeconds": 3.4420926,
+    "resultState": "Passed"
+  },
+  "results": [
+    {
+      "name": "AttachedSoundUsesLocalOffsetTracksMotionAndStopsWhenTargetIsDestroyed",
+      "fullName": "AudioSystem.Tests.AudioSystemTests.AttachedSoundUsesLocalOffsetTracksMotionAndStopsWhenTargetIsDestroyed",
+      "state": "Passed",
+      "durationSeconds": 0.0010315,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "BurstNeverExceedsPoolLimitAndStaleHandlesCannotStopReusedSources",
+      "fullName": "AudioSystem.Tests.AudioSystemTests.BurstNeverExceedsPoolLimitAndStaleHandlesCannotStopReusedSources",
+      "state": "Passed",
+      "durationSeconds": 0.0010354,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "BusAndMasterVolumesComposeAndMuteDoesNotEraseTheirSettings",
+      "fullName": "AudioSystem.Tests.AudioSystemTests.BusAndMasterVolumesComposeAndMuteDoesNotEraseTheirSettings",
+      "state": "Passed",
+      "durationSeconds": 0.0006509,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "CancellationOfStopRestoresTrackAndCompletionReleasesBothSources",
+      "fullName": "AudioSystem.Tests.AudioSystemTests.CancellationOfStopRestoresTrackAndCompletionReleasesBothSources",
+      "state": "Passed",
+      "durationSeconds": 0.0005507,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "CancellationRestoresPreviousMusicAndReleasesIncomingTrack",
+      "fullName": "AudioSystem.Tests.AudioSystemTests.CancellationRestoresPreviousMusicAndReleasesIncomingTrack",
+      "state": "Passed",
+      "durationSeconds": 0.0006628,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "CooldownRejectsRepeatedRequestsWithoutConsumingAnotherVoice",
+      "fullName": "AudioSystem.Tests.AudioSystemTests.CooldownRejectsRepeatedRequestsWithoutConsumingAnotherVoice",
+      "state": "Passed",
+      "durationSeconds": 0.0007173,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "DefaultOptionsHaveUnitGainAndInvalidValuesAreRejectedBeforePlayback",
+      "fullName": "AudioSystem.Tests.AudioSystemTests.DefaultOptionsHaveUnitGainAndInvalidValuesAreRejectedBeforePlayback",
+      "state": "Passed",
+      "durationSeconds": 0.0004991,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "DisposingDuringMusicTransitionCancelsTaskAndClearsSources",
+      "fullName": "AudioSystem.Tests.AudioSystemTests.DisposingDuringMusicTransitionCancelsTaskAndClearsSources",
+      "state": "Passed",
+      "durationSeconds": 0.0005198,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "EventBridgeSubscribesOnceAndUnsubscribesOnDisposal",
+      "fullName": "AudioSystem.Tests.AudioSystemTests.EventBridgeSubscribesOnceAndUnsubscribesOnDisposal",
+      "state": "Passed",
+      "durationSeconds": 0.0004615,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "LowerPriorityPolicyPreservesEqualPriorityAndAllowsMoreImportantSound",
+      "fullName": "AudioSystem.Tests.AudioSystemTests.LowerPriorityPolicyPreservesEqualPriorityAndAllowsMoreImportantSound",
+      "state": "Passed",
+      "durationSeconds": 0.0006882,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "NewRequestFromCancellationContinuationIsNotOverwrittenByOlderCaller",
+      "fullName": "AudioSystem.Tests.AudioSystemTests.NewRequestFromCancellationContinuationIsNotOverwrittenByOlderCaller",
+      "state": "Passed",
+      "durationSeconds": 0.0006889,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "PausedVoiceIsRetainedAndCanResume",
+      "fullName": "AudioSystem.Tests.AudioSystemTests.PausedVoiceIsRetainedAndCanResume",
+      "state": "Passed",
+      "durationSeconds": 0.0006529,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "PerSoundLimitCanReplaceOldestWithoutGrowingPool",
+      "fullName": "AudioSystem.Tests.AudioSystemTests.PerSoundLimitCanReplaceOldestWithoutGrowingPool",
+      "state": "Passed",
+      "durationSeconds": 0.0005045,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "RapidMusicRequestsStayAtTwoSourcesAndSupersedePreviousTasks",
+      "fullName": "AudioSystem.Tests.AudioSystemTests.RapidMusicRequestsStayAtTwoSourcesAndSupersedePreviousTasks",
+      "state": "Passed",
+      "durationSeconds": 0.0015528,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "RegistrationRequiresEventBusBeforeCreatingRuntimeResources",
+      "fullName": "AudioSystem.Tests.AudioSystemTests.RegistrationRequiresEventBusBeforeCreatingRuntimeResources",
+      "state": "Passed",
+      "durationSeconds": 0.0003751,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "VContainerRegistersServiceAndOwnsItsLifetime",
+      "fullName": "AudioSystem.Tests.AudioSystemTests.VContainerRegistersServiceAndOwnsItsLifetime",
+      "state": "Passed",
+      "durationSeconds": 0.0008033,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "DeletingLastEntryAndReloadingNeverReusesItsNumericId",
+      "fullName": "AudioSystem.Tests.SoundCatalogTests.DeletingLastEntryAndReloadingNeverReusesItsNumericId",
+      "state": "Passed",
+      "durationSeconds": 0.0003236,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "DuplicateNamesAreRejectedByGeneratorAndRuntime",
+      "fullName": "AudioSystem.Tests.SoundCatalogTests.DuplicateNamesAreRejectedByGeneratorAndRuntime",
+      "state": "Passed",
+      "durationSeconds": 0.0001864,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "DuplicatingSerializedRowAllocatesNewNumericIdAndRequiresUniqueName",
+      "fullName": "AudioSystem.Tests.SoundCatalogTests.DuplicatingSerializedRowAllocatesNewNumericIdAndRequiresUniqueName",
+      "state": "Passed",
+      "durationSeconds": 0.0002494,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "EnumTypeNamesCannotConflictWithGeneratedApiTypes(\"SoundKey\")",
+      "fullName": "AudioSystem.Tests.SoundCatalogTests.EnumTypeNamesCannotConflictWithGeneratedApiTypes(\"SoundKey\")",
+      "state": "Passed",
+      "durationSeconds": 0.0005133,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "EnumTypeNamesCannotConflictWithGeneratedApiTypes(\"Guid\")",
+      "fullName": "AudioSystem.Tests.SoundCatalogTests.EnumTypeNamesCannotConflictWithGeneratedApiTypes(\"Guid\")",
+      "state": "Passed",
+      "durationSeconds": 0.0002845,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "EnumTypeNamesCannotConflictWithGeneratedApiTypes(\"Invalid Name\")",
+      "fullName": "AudioSystem.Tests.SoundCatalogTests.EnumTypeNamesCannotConflictWithGeneratedApiTypes(\"Invalid Name\")",
+      "state": "Passed",
+      "durationSeconds": 0.0002251,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "GeneratedCodeCannotEscapeAssets(\"../../../../OutsideProject\")",
+      "fullName": "AudioSystem.Tests.SoundCatalogTests.GeneratedCodeCannotEscapeAssets(\"../../../../OutsideProject\")",
+      "state": "Passed",
+      "durationSeconds": 0.0002227,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "GeneratedCodeCannotEscapeAssets(\"Assets/../../OutsideProject\")",
+      "fullName": "AudioSystem.Tests.SoundCatalogTests.GeneratedCodeCannotEscapeAssets(\"Assets/../../OutsideProject\")",
+      "state": "Passed",
+      "durationSeconds": 0.0004359,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "GeneratedCodeCannotEscapeAssets(\"Packages/Unsafe\")",
+      "fullName": "AudioSystem.Tests.SoundCatalogTests.GeneratedCodeCannotEscapeAssets(\"Packages/Unsafe\")",
+      "state": "Passed",
+      "durationSeconds": 0.000131,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "GeneratedCodeCannotEscapeAssets(\"\")",
+      "fullName": "AudioSystem.Tests.SoundCatalogTests.GeneratedCodeCannotEscapeAssets(\"\")",
+      "state": "Passed",
+      "durationSeconds": 0.0003381,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "GeneratedFolderSupportsProjectAndRelocatedSamplePaths(\"Assets/AudioSystemGenerated\",\"Assets/AudioSystemGenerated\")",
+      "fullName": "AudioSystem.Tests.SoundCatalogTests.GeneratedFolderSupportsProjectAndRelocatedSamplePaths(\"Assets/AudioSystemGenerated\",\"Assets/AudioSystemGenerated\")",
+      "state": "Passed",
+      "durationSeconds": 0.0002159,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "GeneratedFolderSupportsProjectAndRelocatedSamplePaths(\"../Generated\",\"Assets/Samples/PlaybackLab/Generated\")",
+      "fullName": "AudioSystem.Tests.SoundCatalogTests.GeneratedFolderSupportsProjectAndRelocatedSamplePaths(\"../Generated\",\"Assets/Samples/PlaybackLab/Generated\")",
+      "state": "Passed",
+      "durationSeconds": 0.0001432,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "InvalidCatalogIsRejectedBeforeAllocatingAudioSources",
+      "fullName": "AudioSystem.Tests.SoundCatalogTests.InvalidCatalogIsRejectedBeforeAllocatingAudioSources",
+      "state": "Passed",
+      "durationSeconds": 0.0002454,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "InvalidNamesCannotGenerateCompilableLookingButBrokenEnums(\"bad id\")",
+      "fullName": "AudioSystem.Tests.SoundCatalogTests.InvalidNamesCannotGenerateCompilableLookingButBrokenEnums(\"bad id\")",
+      "state": "Passed",
+      "durationSeconds": 0.000206,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "InvalidNamesCannotGenerateCompilableLookingButBrokenEnums(\"3DHit\")",
+      "fullName": "AudioSystem.Tests.SoundCatalogTests.InvalidNamesCannotGenerateCompilableLookingButBrokenEnums(\"3DHit\")",
+      "state": "Passed",
+      "durationSeconds": 0.0001439,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "InvalidNamesCannotGenerateCompilableLookingButBrokenEnums(\"class\")",
+      "fullName": "AudioSystem.Tests.SoundCatalogTests.InvalidNamesCannotGenerateCompilableLookingButBrokenEnums(\"class\")",
+      "state": "Passed",
+      "durationSeconds": 0.0001345,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "InvalidNamesCannotGenerateCompilableLookingButBrokenEnums(\"None\")",
+      "fullName": "AudioSystem.Tests.SoundCatalogTests.InvalidNamesCannotGenerateCompilableLookingButBrokenEnums(\"None\")",
+      "state": "Passed",
+      "durationSeconds": 0.0001432,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "InvalidNamesCannotGenerateCompilableLookingButBrokenEnums(\"SoundId\")",
+      "fullName": "AudioSystem.Tests.SoundCatalogTests.InvalidNamesCannotGenerateCompilableLookingButBrokenEnums(\"SoundId\")",
+      "state": "Passed",
+      "durationSeconds": 0.0001303,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "InvalidNamesCannotGenerateCompilableLookingButBrokenEnums(\"value__\")",
+      "fullName": "AudioSystem.Tests.SoundCatalogTests.InvalidNamesCannotGenerateCompilableLookingButBrokenEnums(\"value__\")",
+      "state": "Passed",
+      "durationSeconds": 0.0001421,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "InvalidNamesCannotGenerateCompilableLookingButBrokenEnums(\"\")",
+      "fullName": "AudioSystem.Tests.SoundCatalogTests.InvalidNamesCannotGenerateCompilableLookingButBrokenEnums(\"\")",
+      "state": "Passed",
+      "durationSeconds": 0.0004155,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "PlaybackSettingChangesDoNotChangeGeneratedCode",
+      "fullName": "AudioSystem.Tests.SoundCatalogTests.PlaybackSettingChangesDoNotChangeGeneratedCode",
+      "state": "Passed",
+      "durationSeconds": 0.0004123,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "RenamingPreservesNumericIdAndUpdatesGeneratedName",
+      "fullName": "AudioSystem.Tests.SoundCatalogTests.RenamingPreservesNumericIdAndUpdatesGeneratedName",
+      "state": "Passed",
+      "durationSeconds": 0.0003298,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "ReorderingDoesNotChangeKeysOrGeneratedSource",
+      "fullName": "AudioSystem.Tests.SoundCatalogTests.ReorderingDoesNotChangeKeysOrGeneratedSource",
+      "state": "Passed",
+      "durationSeconds": 0.0003207,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "UnknownAndForeignKeysAreRejectedWithoutPlayingAnotherSound",
+      "fullName": "AudioSystem.Tests.SoundCatalogTests.UnknownAndForeignKeysAreRejectedWithoutPlayingAnotherSound",
+      "state": "Passed",
+      "durationSeconds": 0.0001872,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "ChangeState_CancelsAndExitsOldStateBeforeEnteringNewState",
+      "fullName": "BlackProcess.StateMachine.Tests.StateMachineTests.ChangeState_CancelsAndExitsOldStateBeforeEnteringNewState",
+      "state": "Passed",
+      "durationSeconds": 0.0001327,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "ChangeState_RejectsNullAndKeepsSameState",
+      "fullName": "BlackProcess.StateMachine.Tests.StateMachineTests.ChangeState_RejectsNullAndKeepsSameState",
+      "state": "Passed",
+      "durationSeconds": 0.0000774,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "Dispose_CancelsCurrentStateAndRejectsFurtherUse",
+      "fullName": "BlackProcess.StateMachine.Tests.StateMachineTests.Dispose_CancelsCurrentStateAndRejectsFurtherUse",
+      "state": "Passed",
+      "durationSeconds": 0.000044,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "TickAndFixedTick_OnlyReachActiveState",
+      "fullName": "BlackProcess.StateMachine.Tests.StateMachineTests.TickAndFixedTick_OnlyReachActiveState",
+      "state": "Passed",
+      "durationSeconds": 0.0000267,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "Load_IgnoresMissingAssetGuids",
+      "fullName": "Kamer.PinnedPrefabs.Tests.PinnedPrefabDataHandlerTests.Load_IgnoresMissingAssetGuids",
+      "state": "Passed",
+      "durationSeconds": 0.0036834,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "Load_MigratesLegacyPreferenceKey",
+      "fullName": "Kamer.PinnedPrefabs.Tests.PinnedPrefabDataHandlerTests.Load_MigratesLegacyPreferenceKey",
+      "state": "Passed",
+      "durationSeconds": 0.0844106,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "SaveAndLoad_FiltersNullAndDuplicatePrefabs",
+      "fullName": "Kamer.PinnedPrefabs.Tests.PinnedPrefabDataHandlerTests.SaveAndLoad_FiltersNullAndDuplicatePrefabs",
+      "state": "Passed",
+      "durationSeconds": 0.1388547,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "Clamp_ConstrainsValuesToSupportedRange(-1.0f,0.0f)",
+      "fullName": "Kamer.TimeScaleToolbar.Tests.TimeScaleToolbarSettingsTests.Clamp_ConstrainsValuesToSupportedRange(-1.0f,0.0f)",
+      "state": "Passed",
+      "durationSeconds": 0.0000863,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "Clamp_ConstrainsValuesToSupportedRange(0.0f,0.0f)",
+      "fullName": "Kamer.TimeScaleToolbar.Tests.TimeScaleToolbarSettingsTests.Clamp_ConstrainsValuesToSupportedRange(0.0f,0.0f)",
+      "state": "Passed",
+      "durationSeconds": 0.000029,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "Clamp_ConstrainsValuesToSupportedRange(1.5f,1.5f)",
+      "fullName": "Kamer.TimeScaleToolbar.Tests.TimeScaleToolbarSettingsTests.Clamp_ConstrainsValuesToSupportedRange(1.5f,1.5f)",
+      "state": "Passed",
+      "durationSeconds": 0.0000211,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "Clamp_ConstrainsValuesToSupportedRange(3.0f,3.0f)",
+      "fullName": "Kamer.TimeScaleToolbar.Tests.TimeScaleToolbarSettingsTests.Clamp_ConstrainsValuesToSupportedRange(3.0f,3.0f)",
+      "state": "Passed",
+      "durationSeconds": 0.0000199,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "Clamp_ConstrainsValuesToSupportedRange(5.0f,3.0f)",
+      "fullName": "Kamer.TimeScaleToolbar.Tests.TimeScaleToolbarSettingsTests.Clamp_ConstrainsValuesToSupportedRange(5.0f,3.0f)",
+      "state": "Passed",
+      "durationSeconds": 0.0000192,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "Format_IsCultureInvariant",
+      "fullName": "Kamer.TimeScaleToolbar.Tests.TimeScaleToolbarSettingsTests.Format_IsCultureInvariant",
+      "state": "Passed",
+      "durationSeconds": 0.000046,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "IsSynchronized_UsesConfiguredTolerance",
+      "fullName": "Kamer.TimeScaleToolbar.Tests.TimeScaleToolbarSettingsTests.IsSynchronized_UsesConfiguredTolerance",
+      "state": "Passed",
+      "durationSeconds": 0.0000226,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "BackendFailureHidesAndNextRequestCanSucceed",
+      "fullName": "SceneLoader.Tests.SceneLoaderServiceTests.BackendFailureHidesAndNextRequestCanSucceed",
+      "state": "Passed",
+      "durationSeconds": 0.0002397,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "CancellationAfterSubmissionWaitsForCompletionAndCleanup",
+      "fullName": "SceneLoader.Tests.SceneLoaderServiceTests.CancellationAfterSubmissionWaitsForCompletionAndCleanup",
+      "state": "Passed",
+      "durationSeconds": 0.0001166,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "ConcurrentLoadAndUnloadAreRejectedUntilCurrentLoadFinishes",
+      "fullName": "SceneLoader.Tests.SceneLoaderServiceTests.ConcurrentLoadAndUnloadAreRejectedUntilCurrentLoadFinishes",
+      "state": "Passed",
+      "durationSeconds": 0.0001456,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "DefaultCallShowsScreenAndReportsCompletionAfterCleanup",
+      "fullName": "SceneLoader.Tests.SceneLoaderServiceTests.DefaultCallShowsScreenAndReportsCompletionAfterCleanup",
+      "state": "Passed",
+      "durationSeconds": 0.0000852,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "ExplicitDefaultOptionsMatchDefaultCall",
+      "fullName": "SceneLoader.Tests.SceneLoaderServiceTests.ExplicitDefaultOptionsMatchDefaultCall",
+      "state": "Passed",
+      "durationSeconds": 0.0000557,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "HiddenScreenReceivesNoCallsAndAdditiveCanBeActivated",
+      "fullName": "SceneLoader.Tests.SceneLoaderServiceTests.HiddenScreenReceivesNoCallsAndAdditiveCanBeActivated",
+      "state": "Passed",
+      "durationSeconds": 0.0000315,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "HideFailureIsReportedAndReleasesLock",
+      "fullName": "SceneLoader.Tests.SceneLoaderServiceTests.HideFailureIsReportedAndReleasesLock",
+      "state": "Passed",
+      "durationSeconds": 0.0000788,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "InvalidBuildSceneFailsBeforeShowingScreen",
+      "fullName": "SceneLoader.Tests.SceneLoaderServiceTests.InvalidBuildSceneFailsBeforeShowingScreen",
+      "state": "Passed",
+      "durationSeconds": 0.0000622,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "InvalidScenePathIsRejected",
+      "fullName": "SceneLoader.Tests.SceneLoaderServiceTests.InvalidScenePathIsRejected",
+      "state": "Passed",
+      "durationSeconds": 0.0000453,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "PartialShowFailureStillHidesAndReleasesLock",
+      "fullName": "SceneLoader.Tests.SceneLoaderServiceTests.PartialShowFailureStillHidesAndReleasesLock",
+      "state": "Passed",
+      "durationSeconds": 0.0000633,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "PreCanceledRequestDoesNotStartTransition",
+      "fullName": "SceneLoader.Tests.SceneLoaderServiceTests.PreCanceledRequestDoesNotStartTransition",
+      "state": "Passed",
+      "durationSeconds": 0.000049,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "UnloadedSceneCannotBeUnloaded",
+      "fullName": "SceneLoader.Tests.SceneLoaderServiceTests.UnloadedSceneCannotBeUnloaded",
+      "state": "Passed",
+      "durationSeconds": 0.0001042,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "SceneMoveUpdatesReferenceAndDeletionClearsPath",
+      "fullName": "SceneLoader.Tests.SceneReferenceTests.SceneMoveUpdatesReferenceAndDeletionClearsPath",
+      "state": "Passed",
+      "durationSeconds": 0.2662276,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    }
+  ]
+}

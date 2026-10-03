@@ -1,0 +1,1 @@
+Camera Effects FOV pulse=True; restore=True; recoil=True; stop=True; switch=True

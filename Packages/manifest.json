@@ -1,6 +1,23 @@
 {
+  "testables": [
+    "com.kamer.pinned-prefabs",
+    "com.kamer.time-scale-toolbar",
+    "com.kameryurdakull.state-machine",
+    "com.kameryurdakull.sceneloader",
+    "com.kameryurdakull.audiosystem"
+  ],
   "dependencies": {
     "com.coplaydev.unity-mcp": "https://github.com/CoplayDev/unity-mcp.git?path=/MCPForUnity#30d22075093d1d35dfb0091c1c7550e9ad948577",
+    "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask#2.5.11",
+    "com.kamer.pinned-prefabs": "https://github.com/kameryurdakull/PinnedPrefab.git#7f32eae15e22e5b1667bfacae306e773965ac931",
+    "com.kamer.time-scale-toolbar": "https://github.com/kameryurdakull/TimeScaleToolbar.git#9cb304c7a93b68db452c317ef8f1b06b0f257d8b",
+    "com.kameryurdakull.audiosystem": "https://github.com/kameryurdakull/unity-audio-system.git?path=/Packages/com.kameryurdakull.audiosystem#220cd8abe4d2962a6edb834886656f86c96e10dc",
+    "com.kameryurdakull.camera-framework": "https://github.com/kameryurdakull/unity-camera-effects.git?path=/Distribution/com.kameryurdakull.camera-framework#27f13341d5da6d33164f7c849ba972b83cd2f34a",
+    "com.kameryurdakull.eventbus": "https://github.com/kameryurdakull/unity-eventbus.git?path=/Packages/com.kameryurdakull.eventbus#v1.0.0",
+    "com.kameryurdakull.pool-service": "https://github.com/kameryurdakull/unity-component-pool.git?path=/Packages/com.kameryurdakull.pool-service#28f4e6025338d9ea650af438cfd1d64d4f884360",
+    "com.kameryurdakull.prefab-exporter": "https://github.com/kameryurdakull/unity-prefab-exporter.git?path=/Packages/com.kameryurdakull.prefab-exporter#8cbe81b0b2215db4c2ae24379ad40195e5f54d07",
+    "com.kameryurdakull.sceneloader": "https://github.com/kameryurdakull/unity-scene-loader.git?path=/Packages/com.kameryurdakull.sceneloader#3250e1dfdae220f53af441de12afc913d44d5b92",
+    "com.kameryurdakull.state-machine": "https://github.com/kameryurdakull/state-machine.git?path=/Packages/com.kameryurdakull.state-machine#29656416b9f79959b958ce69621cdd07bf928d05",
     "com.unity.ai.navigation": "2.0.12",
     "com.unity.collab-proxy": "2.12.4",
     "com.unity.ide.rider": "3.0.39",
@@ -12,6 +29,7 @@
     "com.unity.timeline": "1.8.12",
     "com.unity.ugui": "2.0.0",
     "com.unity.visualscripting": "1.9.11",
+    "jp.hadashikick.vcontainer": "https://github.com/hadashiA/VContainer.git?path=VContainer/Assets/VContainer#1.19.0",
     "com.unity.modules.accessibility": "1.0.0",
     "com.unity.modules.adaptiveperformance": "1.0.0",
     "com.unity.modules.ai": "1.0.0",

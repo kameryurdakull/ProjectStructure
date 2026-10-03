@@ -17,6 +17,86 @@
       },
       "hash": "30d22075093d1d35dfb0091c1c7550e9ad948577"
     },
+    "com.cysharp.unitask": {
+      "version": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask#2.5.11",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "2e993ff18f28c931602a07292df0b0804eebef99"
+    },
+    "com.kamer.pinned-prefabs": {
+      "version": "https://github.com/kameryurdakull/PinnedPrefab.git#7f32eae15e22e5b1667bfacae306e773965ac931",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "7f32eae15e22e5b1667bfacae306e773965ac931"
+    },
+    "com.kamer.time-scale-toolbar": {
+      "version": "https://github.com/kameryurdakull/TimeScaleToolbar.git#9cb304c7a93b68db452c317ef8f1b06b0f257d8b",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "9cb304c7a93b68db452c317ef8f1b06b0f257d8b"
+    },
+    "com.kameryurdakull.audiosystem": {
+      "version": "https://github.com/kameryurdakull/unity-audio-system.git?path=/Packages/com.kameryurdakull.audiosystem#220cd8abe4d2962a6edb834886656f86c96e10dc",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.cysharp.unitask": "2.5.11",
+        "jp.hadashikick.vcontainer": "1.19.0",
+        "com.kameryurdakull.eventbus": "1.0.0",
+        "com.unity.modules.audio": "1.0.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.imgui": "1.0.0"
+      },
+      "hash": "220cd8abe4d2962a6edb834886656f86c96e10dc"
+    },
+    "com.kameryurdakull.camera-framework": {
+      "version": "https://github.com/kameryurdakull/unity-camera-effects.git?path=/Distribution/com.kameryurdakull.camera-framework#27f13341d5da6d33164f7c849ba972b83cd2f34a",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.cinemachine": "3.1.7",
+        "com.unity.modules.uielements": "1.0.0"
+      },
+      "hash": "27f13341d5da6d33164f7c849ba972b83cd2f34a"
+    },
+    "com.kameryurdakull.eventbus": {
+      "version": "https://github.com/kameryurdakull/unity-eventbus.git?path=/Packages/com.kameryurdakull.eventbus#v1.0.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "d00c712cd8d29f7dd69cc701c172decaf734bdb5"
+    },
+    "com.kameryurdakull.pool-service": {
+      "version": "https://github.com/kameryurdakull/unity-component-pool.git?path=/Packages/com.kameryurdakull.pool-service#28f4e6025338d9ea650af438cfd1d64d4f884360",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "28f4e6025338d9ea650af438cfd1d64d4f884360"
+    },
+    "com.kameryurdakull.prefab-exporter": {
+      "version": "https://github.com/kameryurdakull/unity-prefab-exporter.git?path=/Packages/com.kameryurdakull.prefab-exporter#8cbe81b0b2215db4c2ae24379ad40195e5f54d07",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "8cbe81b0b2215db4c2ae24379ad40195e5f54d07"
+    },
+    "com.kameryurdakull.sceneloader": {
+      "version": "https://github.com/kameryurdakull/unity-scene-loader.git?path=/Packages/com.kameryurdakull.sceneloader#3250e1dfdae220f53af441de12afc913d44d5b92",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "3250e1dfdae220f53af441de12afc913d44d5b92"
+    },
+    "com.kameryurdakull.state-machine": {
+      "version": "https://github.com/kameryurdakull/state-machine.git?path=/Packages/com.kameryurdakull.state-machine#29656416b9f79959b958ce69621cdd07bf928d05",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "29656416b9f79959b958ce69621cdd07bf928d05"
+    },
     "com.unity.ai.navigation": {
       "version": "2.0.12",
       "depth": 0,
@@ -33,6 +113,16 @@
       "dependencies": {
         "com.unity.mathematics": "1.2.1",
         "com.unity.modules.jsonserialize": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.cinemachine": {
+      "version": "3.1.7",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.splines": "2.0.0",
+        "com.unity.modules.imgui": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -157,6 +247,13 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.settings-manager": {
+      "version": "2.1.1",
+      "depth": 3,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.shadergraph": {
       "version": "17.3.0",
       "depth": 1,
@@ -165,6 +262,17 @@
         "com.unity.render-pipelines.core": "17.3.0",
         "com.unity.searcher": "4.9.3"
       }
+    },
+    "com.unity.splines": {
+      "version": "2.8.4",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.mathematics": "1.2.1",
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.settings-manager": "1.0.3"
+      },
+      "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
       "version": "1.6.0",
@@ -216,6 +324,13 @@
         "com.unity.modules.jsonserialize": "1.0.0"
       },
       "url": "https://packages.unity.com"
+    },
+    "jp.hadashikick.vcontainer": {
+      "version": "https://github.com/hadashiA/VContainer.git?path=VContainer/Assets/VContainer#1.19.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "5401e5a7ebc4980a2b82141ffc26391a6547edd7"
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
