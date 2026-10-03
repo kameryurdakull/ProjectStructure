@@ -1,5 +1,7 @@
 # Paket kurulum ve uyumluluk raporu
 
+> Bu rapor Toolkit 1.0.0 ile yapılan ilk çalışmayı kaydeder. Toolkit 2.0.0 ile Event Bus çakışması giderildi; dokuz paket artık birlikte kurulu. Güncel sonuçlar: [ToolkitV2Validation.md](ToolkitV2Validation.md).
+
 Tarih: 3 Ekim 2026. Ortam: Unity 6000.3.15f1, Windows Editor, StandaloneWindows64.
 
 Dokuz yeni paketin tamamı Git kaynaklarından indirildi ve kuruldu. URP Toolkit önce ortak Event Bus olmadan test edildi. Ardından ortak Event Bus ile birlikte kullanımındaki tip çakışması doğrulandı ve Toolkit son kurulumdan kaldırıldı. Diğer sekiz paket, UniTask, VContainer, Event Bus ve DOTween ile kurulu bırakıldı.

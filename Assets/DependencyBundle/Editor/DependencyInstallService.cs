@@ -40,12 +40,6 @@ namespace PackageStructure.Editor
 
         internal static string GetInstallationBlockReason(DependencyPackage package)
         {
-            if (package.ConflictingPackageName != null && IsPackageInstalled(package.ConflictingPackageName))
-            {
-                return $"Cannot install alongside {DependencyInstallCatalog.GetDisplayName(package.ConflictingPackageName)}: "
-                    + "URP PostProcessing Toolkit bundles conflicting EventSystem types. Update the toolkit to use the shared Event Bus first.";
-            }
-
             var missing = new List<string>();
             AddMissingPrerequisite(package, DependencyPrerequisite.UniTask, DependencyInstallCatalog.UniTaskName, missing);
             AddMissingPrerequisite(package, DependencyPrerequisite.VContainer, DependencyInstallCatalog.VContainerName, missing);

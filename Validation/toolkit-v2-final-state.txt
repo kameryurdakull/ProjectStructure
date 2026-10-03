@@ -1,0 +1,5 @@
+Toolkit 2.0.0
+com.kameryurdakull.post-process-service@https://github.com/kameryurdakull/URP-PostProcessing-Toolkit.git?path=/Packages/com.kameryurdakull.post-process-service#bcdb5f30e62809c3f3265c2395bea149ca503e8b
+Installer block: none
+EventSystem providers: EventSystem
+Play mode: False

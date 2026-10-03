@@ -76,6 +76,15 @@
       "dependencies": {},
       "hash": "28f4e6025338d9ea650af438cfd1d64d4f884360"
     },
+    "com.kameryurdakull.post-process-service": {
+      "version": "https://github.com/kameryurdakull/URP-PostProcessing-Toolkit.git?path=/Packages/com.kameryurdakull.post-process-service#bcdb5f30e62809c3f3265c2395bea149ca503e8b",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.render-pipelines.universal": "17.3.0"
+      },
+      "hash": "bcdb5f30e62809c3f3265c2395bea149ca503e8b"
+    },
     "com.kameryurdakull.prefab-exporter": {
       "version": "https://github.com/kameryurdakull/unity-prefab-exporter.git?path=/Packages/com.kameryurdakull.prefab-exporter#8cbe81b0b2215db4c2ae24379ad40195e5f54d07",
       "depth": 0,

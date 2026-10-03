@@ -1,0 +1,94 @@
+{
+  "mode": "PlayMode",
+  "summary": {
+    "total": 9,
+    "passed": 9,
+    "failed": 0,
+    "skipped": 0,
+    "durationSeconds": 0.0212758,
+    "resultState": "Passed"
+  },
+  "results": [
+    {
+      "name": "BlendWeightClampsAndResetAllRestoresState",
+      "fullName": "PackageStructure.Validation.ToolkitCompatibilityTests.BlendWeightClampsAndResetAllRestoresState",
+      "state": "Passed",
+      "durationSeconds": 0.0005521,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "DirectSetAndResetRestoreValueAndOverrideState",
+      "fullName": "PackageStructure.Validation.ToolkitCompatibilityTests.DirectSetAndResetRestoreValueAndOverrideState",
+      "state": "Passed",
+      "durationSeconds": 0.0005166,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "DisableUnsubscribesAndReenableResubscribesOnce",
+      "fullName": "PackageStructure.Validation.ToolkitCompatibilityTests.DisableUnsubscribesAndReenableResubscribesOnce",
+      "state": "Passed",
+      "durationSeconds": 0.0004005,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "PresetEventsCreateAndRemovePresetVolumes",
+      "fullName": "PackageStructure.Validation.ToolkitCompatibilityTests.PresetEventsCreateAndRemovePresetVolumes",
+      "state": "Passed",
+      "durationSeconds": 0.0005009,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "PulseTweenReachesPeakAndRestoresBaseline",
+      "fullName": "PackageStructure.Validation.ToolkitCompatibilityTests.PulseTweenReachesPeakAndRestoresBaseline",
+      "state": "Passed",
+      "durationSeconds": 0.0006874,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "SharedEventBusTypesHaveExactlyOneProvider",
+      "fullName": "PackageStructure.Validation.ToolkitCompatibilityTests.SharedEventBusTypesHaveExactlyOneProvider",
+      "state": "Passed",
+      "durationSeconds": 0.0006583,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "SharedHostBusRoutesRequestsThroughAdapter",
+      "fullName": "PackageStructure.Validation.ToolkitCompatibilityTests.SharedHostBusRoutesRequestsThroughAdapter",
+      "state": "Passed",
+      "durationSeconds": 0.0002878,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "StackablePresetsCoexistAndResetClearsThem",
+      "fullName": "PackageStructure.Validation.ToolkitCompatibilityTests.StackablePresetsCoexistAndResetClearsThem",
+      "state": "Passed",
+      "durationSeconds": 0.0006092,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    },
+    {
+      "name": "VContainerResolvesAndInjectsHostAdapter",
+      "fullName": "PackageStructure.Validation.ToolkitCompatibilityTests.VContainerResolvesAndInjectsHostAdapter",
+      "state": "Passed",
+      "durationSeconds": 0.000559,
+      "message": null,
+      "stackTrace": null,
+      "output": ""
+    }
+  ]
+}

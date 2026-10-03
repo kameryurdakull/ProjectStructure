@@ -15,6 +15,7 @@
     "com.kameryurdakull.camera-framework": "https://github.com/kameryurdakull/unity-camera-effects.git?path=/Distribution/com.kameryurdakull.camera-framework#27f13341d5da6d33164f7c849ba972b83cd2f34a",
     "com.kameryurdakull.eventbus": "https://github.com/kameryurdakull/unity-eventbus.git?path=/Packages/com.kameryurdakull.eventbus#v1.0.0",
     "com.kameryurdakull.pool-service": "https://github.com/kameryurdakull/unity-component-pool.git?path=/Packages/com.kameryurdakull.pool-service#28f4e6025338d9ea650af438cfd1d64d4f884360",
+    "com.kameryurdakull.post-process-service": "https://github.com/kameryurdakull/URP-PostProcessing-Toolkit.git?path=/Packages/com.kameryurdakull.post-process-service#bcdb5f30e62809c3f3265c2395bea149ca503e8b",
     "com.kameryurdakull.prefab-exporter": "https://github.com/kameryurdakull/unity-prefab-exporter.git?path=/Packages/com.kameryurdakull.prefab-exporter#8cbe81b0b2215db4c2ae24379ad40195e5f54d07",
     "com.kameryurdakull.sceneloader": "https://github.com/kameryurdakull/unity-scene-loader.git?path=/Packages/com.kameryurdakull.sceneloader#3250e1dfdae220f53af441de12afc913d44d5b92",
     "com.kameryurdakull.state-machine": "https://github.com/kameryurdakull/state-machine.git?path=/Packages/com.kameryurdakull.state-machine#29656416b9f79959b958ce69621cdd07bf928d05",

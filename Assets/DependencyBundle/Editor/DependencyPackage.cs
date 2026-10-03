@@ -18,17 +18,14 @@ namespace PackageStructure.Editor
         internal string Name { get; }
         internal string Url { get; }
         internal DependencyPrerequisite Prerequisites { get; }
-        internal string ConflictingPackageName { get; }
 
         internal DependencyPackage(string displayName, string name, string url,
-            DependencyPrerequisite prerequisites = DependencyPrerequisite.None,
-            string conflictingPackageName = null)
+            DependencyPrerequisite prerequisites = DependencyPrerequisite.None)
         {
             DisplayName = displayName;
             Name = name;
             Url = url;
             Prerequisites = prerequisites;
-            ConflictingPackageName = conflictingPackageName;
         }
     }
 }

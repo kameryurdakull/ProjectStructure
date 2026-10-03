@@ -1,0 +1,1 @@
+PASS: shared EventSystem.IEventBus and Toolkit IPostProcessEventBus compile together.
