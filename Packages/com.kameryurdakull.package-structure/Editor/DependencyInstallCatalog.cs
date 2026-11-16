@@ -55,7 +55,10 @@ namespace PackageStructure.Editor
                     GitHubRoot + "unity-audio-system.git?path=/Packages/com.kameryurdakull.audiosystem#220cd8abe4d2962a6edb834886656f86c96e10dc",
                     TweenPrerequisites | DependencyPrerequisite.EventBus),
                 new DependencyPackage("Prefab Exporter", "com.kameryurdakull.prefab-exporter",
-                    GitHubRoot + "unity-prefab-exporter.git?path=/Packages/com.kameryurdakull.prefab-exporter#8cbe81b0b2215db4c2ae24379ad40195e5f54d07")
+                    GitHubRoot + "unity-prefab-exporter.git?path=/Packages/com.kameryurdakull.prefab-exporter#8cbe81b0b2215db4c2ae24379ad40195e5f54d07"),
+                new DependencyPackage("Presentation Queue", "com.kameryurdakull.presentation-queue",
+                    GitHubRoot + "unity-presentation-queue.git?path=/Packages/com.kameryurdakull.presentation-queue#v1.0.0",
+                    DependencyPrerequisite.UniTask | DependencyPrerequisite.VContainer)
             });
 
         internal static string GetDisplayName(string packageName)

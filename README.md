@@ -58,6 +58,7 @@ Installer aynı anda tek bir kurulum çalıştırır. Paketler otomatik olarak t
 | Scene Loader | 1.0.0 | UniTask |
 | Audio System | 1.0.0 | UniTask, VContainer, Event Bus, DOTween setup |
 | Prefab Exporter | 1.0.0 | Yok |
+| Presentation Queue | 1.0.0 | UniTask, VContainer |
 
 URP Toolkit, UPM üzerinden URP **17.3.0**; Camera Effects ise Cinemachine **3.1.7** bağımlılığını ister. Bu paketlerin kurulumu mevcut render pipeline ve Cinemachine sürümlerinizi etkileyebilir. Paket katalog sürümleri installer'ın 1.0.0 sürümüne aittir; kesin Git adresleri [DependencyInstallCatalog.cs](Packages/com.kameryurdakull.package-structure/Editor/DependencyInstallCatalog.cs) dosyasındadır.
 

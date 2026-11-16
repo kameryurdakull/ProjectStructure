@@ -23,6 +23,7 @@ Git packages use pinned tags or commit hashes from their upstream repositories. 
 | Scene Loader | [unity-scene-loader](https://github.com/kameryurdakull/unity-scene-loader), `Packages/com.kameryurdakull.sceneloader` | UniTask |
 | Audio System | [unity-audio-system](https://github.com/kameryurdakull/unity-audio-system), `Packages/com.kameryurdakull.audiosystem` | UniTask, VContainer, Event Bus, DOTween setup |
 | Prefab Exporter | [unity-prefab-exporter](https://github.com/kameryurdakull/unity-prefab-exporter), `Packages/com.kameryurdakull.prefab-exporter` | None |
+| Presentation Queue | [unity-presentation-queue](https://github.com/kameryurdakull/unity-presentation-queue), `Packages/com.kameryurdakull.presentation-queue` | UniTask, VContainer |
 
 URP 17.3.0 and Cinemachine 3.1.7 are resolved automatically by the Toolkit and Camera Effects package manifests respectively. Scene Loader's VContainer/Event Bus integrations and DOTween sample are optional. Camera Effects has its own namespaced Event Bus and does not require the shared Event Bus package.
 
